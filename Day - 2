@@ -1,4 +1,4 @@
-//Problem -- 1 if statement
+//Problem -- 1 if-else statement
 #include <iostream>
 using namespace std;
 
@@ -11,5 +11,18 @@ int main(){
     } else {
         cout << "Not eligible for vote...";
     }
+    return 0;
+}
+//Problem -- 2 if statement
+#include <iostream>
+using namespace std;
+
+int main(){
+    int age;
+    cin >> age;
+    
+    if (age >= 18){
+        cout << "Eligible for vote...";
+    } 
     return 0;
 }
