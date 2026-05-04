@@ -146,7 +146,7 @@ int main(){
 
 
 //Problem -- 7
-//print pyramid
+//print rectangle
 #include<iostream>
 using namespace std;
 
