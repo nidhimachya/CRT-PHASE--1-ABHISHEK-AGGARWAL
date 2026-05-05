@@ -23,3 +23,20 @@ int main(){
         
            
     }
+//Program 2
+//Functions with some values and some return values
+
+#include <iostream>
+using namespace std;
+
+int calculateArea( int length, int width){
+    return length * width;
+    
+}
+ int main(){
+     int a =12;
+     int b =10;
+     int area = calculateArea(a,b);
+     cout << area;
+ }   
+    
