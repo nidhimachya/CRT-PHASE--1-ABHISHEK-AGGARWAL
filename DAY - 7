@@ -40,3 +40,30 @@ int main(){
     BankAccount obj1;
     obj1.showbalance();
 }
+
+
+//program --3
+//protected access specifier
+
+#include<iostream>
+using namespace std;
+
+class Parent{
+protected:   
+
+    int secretCode = 1234;
+    
+};
+
+class child : Parent{
+public:
+    void accessLocker(){
+        cout << secretCode;
+    }
+
+};   
+int main(){
+    child obj1;
+    obj1.accessLocker();
+}
+
