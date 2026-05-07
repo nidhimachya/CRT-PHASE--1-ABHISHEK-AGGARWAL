@@ -1,0 +1,21 @@
+//PROGRAM -1
+//CALL BY VALUE , CALL BY REFRENCE
+#include<iostream>
+using namespace std;
+
+void updateByValue(int a){
+    a = 500;
+    
+}
+
+void updateByRefrence(int &a){
+    a = 500;
+}
+
+int main(){
+    int original = 100;
+    updateByValue(original);
+    cout << original << "\n";
+    updateByRefrence(original);
+    cout << original;
+}
