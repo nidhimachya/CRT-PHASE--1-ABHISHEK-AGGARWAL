@@ -100,4 +100,34 @@ int main() {
     
 }
 
+// 1.4-- multiple Inheritance
+#include<iostream>
+using namespace std;
 
+class Parent1 {
+public:    
+    void paiseDo(){
+        cout <<"Mummy paise de do goomne jana hai.." <<"\n";
+    }
+};
+
+class Parent2 {
+public:
+    void paiseDo() {
+        cout << "papa paise de do books laani hai..." << "\n";
+    }
+};
+
+class child : public Parent1 ,public Parent2 {
+    // NO LOGIC
+
+};
+
+int main() {
+    child c;
+    //c.paiseDoMummy();
+    //c.paiseDoPapa();
+    c.paiseDo();
+    
+    
+}
