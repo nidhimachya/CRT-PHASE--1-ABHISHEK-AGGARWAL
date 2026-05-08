@@ -101,6 +101,7 @@ int main() {
 }
 
 // 1.4-- multiple Inheritance
+//ERROR VALA PROGRAM
 #include<iostream>
 using namespace std;
 
